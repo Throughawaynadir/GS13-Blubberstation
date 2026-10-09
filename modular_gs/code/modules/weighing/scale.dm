@@ -114,7 +114,7 @@
 
 /// exists only to provide tile detection on the tile next to the scale
 /obj/structure/scale/plasteel/right
-	invisibility = 101
+	invisibility = INVISIBILITY_ABSTRACT
 
 /obj/structure/scale/plasteel/examine(mob/user)
 	. = ..()
